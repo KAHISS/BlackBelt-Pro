@@ -1,0 +1,9 @@
+venv
+dist
+build
+dataBases
+assets/teste.jpg
+.idea
+__pycache__
+BlackBelt-Pro.spec
+bot.exe
