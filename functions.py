@@ -1132,7 +1132,7 @@ class FunctionsOfLogin(GeneralFunctions):
 
     def password_window(self, function, parameter):
         self.passwordWindow = Toplevel()
-        self.passwordWindow.title('Senha de administrador - Studio Rosa')
+        self.passwordWindow.title('Senha de administrador - BlackBelt-Pro')
         width = self.passwordWindow.winfo_screenwidth()
         height = self.passwordWindow.winfo_screenheight()
         posx = width / 2 - 340 / 2
