@@ -531,7 +531,7 @@ class FunctionsOfSchedule(GeneralFunctions):
 
     def update_schedule(self, treeview, informations, entrys):
         # update informations =========================================
-        if self.validation(informations, 5) and self.validation(informations[1], 4) and self.validation(informations[3], 3):
+        if self.validation(informations[0:4], 5) and self.validation(informations[1], 8) and self.validation(informations[3], 3):
             if treeview.selection():
                 informationsDataBase = self.dataBases['schedule'].crud(
                     updateSchedule.format(
